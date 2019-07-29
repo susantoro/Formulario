@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:background="@color/lightyellow"
+            />
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:background="@color/lightyellow"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="2"
+                      android:orientation="vertical">
+
+            <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <TableRow
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1">
+
+
+                    <Button android:id="@+id/bnSiete"
+                            android:text="@string/siete"
+                            style="@style/StyleButton"
+                    />
+                    <Button android:id="@+id/bnOcho"
+                            android:text="@string/ocho"
+                            style="@style/StyleButton"
+
+                    />
+                    <Button android:id="@+id/bnNueve"
+                            android:text="@string/nueve"
+                            style="@style/StyleButton"
+                    />
+                    <Button android:id="@+id/bnDel"
+                            android:text="@string/Del"
+                            style="@style/StyleOperator"
+                            />
+                </TableRow>
+
+
+
+                <TableRow   android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1">
+
+                    <Button android:id="@+id/bnCuatro"
+                            android:text="@string/cuatro"
+                            style="@style/StyleButton"
+                    />
+                    <Button android:id="@+id/bnCinco"
+                            android:text="@string/cinco"
+                            style="@style/StyleButton"
+                    />
+                    <Button android:id="@+id/bnSeis"
+                            android:text="@string/seis"
+                            style="@style/StyleButton"
+                    />
+                    <Button android:id="@+id/bnMulti"
+                            android:text="@string/multiplicacion"
+                            style="@style/StyleOperator"/>
+
+                </TableRow>
+
+                <TableRow   android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1">
+
+                    <Button android:id="@+id/bnUno"
+                            android:text="@string/uno"
+                            style="@style/StyleButton"
+                    />
+                    <Button android:id="@+id/bnDos"
+                            android:text="@string/dos"
+                            style="@style/StyleButton"
+                    />
+                    <Button android:id="@+id/bnTres"
+                            android:text="@string/tres"
+                            style="@style/StyleButton"/>
+
+                    <Button android:id="@+id/bnDiv"
+                            android:text="@string/division"
+                            style="@style/StyleOperator"/>
+
+                </TableRow>
+
+                <TableRow   android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1">
+
+                    <Button style="@style/StyleButton"/>
+
+                    <Button android:id="@+id/bnCero"
+                            android:text="@string/cero"
+                            style="@style/StyleButton"/>
+
+                    <Button
+                            style="@style/StyleButton"/>
+
+
+                    <ImageButton
+                            android:id="@+id/bnBorrar"
+                            android:scaleType="center"
+                            style="@style/StyleOperator"
+                            tools:src="@drawable/ic_action_borrar_texto"/>
+
+                </TableRow>
+
+                <TableRow   android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_weight="1">
+
+                    <Button android:id="@+id/bnPunto"
+                            android:text="@string/punto"
+                            style="@style/StyleOperator"/>
+
+                    <Button android:id="@+id/bnSuma"
+                            android:text="@string/suma"
+                            style="@style/StyleOperator"/>
+
+                    <Button android:id="@+id/bnResta"
+                            android:text="@string/resta"
+                            style="@style/StyleOperator"/>
+                    <Button
+                            android:id="@+id/bnIgual"
+                            android:text="@string/igual"
+                            style="@style/StyleOperator"/>
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

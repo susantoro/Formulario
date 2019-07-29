@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="Formulario">Formulario:</string>
+    <string name="Nombre">Nombre:</string>
+    <string name="contrasena">Contraseña:</string>
+    <string name="ingresar_nombre">Ingrese su nombre</string>
+    <string name="ingresar_pass">Ingrese su contraseña</string>
+    <string name="repetir_pass">Repite la contraseña</string>
+    <string name="correo">Correo:</string>
+    <string name="correoelectronico">Ingrese su correo</string>
+    <string name="tiposexo">Sexo:</string>
+    <string name="femenino">Femenino</string>
+    <string name="masculino">Masculino</string>
+    <string name="Gustos">Seleccione sus hobbies favoritos</string>
+    <string name="Futbol">Fútbol</string>
+    <string name="Deportes">Deportes</string>
+    <string name="cocinar">Cocinar</string>
+    <string name="Redes">Tecnologia</string>
+    <string name="Lectura">Lectura</string>
+    <string name="pick_time">TIME</string>
+    <string name="Nacimiento">Fecha de nacimiento</string>
+    <string name="fecha">FECHA</string>
+    <string name="LugardeNacimiento">Lugar de nacimiento</string>
+    <string name="Guardar">Guardar</string>
+
+    <string-array name="ciudades_array">
+            <item>Medellin</item>
+            <item>Bogota</item>
+            <item>Cucuta</item>
+            <item>Cali</item>
+            <item>Florencia</item>
+        </string-array>
+</resources>
